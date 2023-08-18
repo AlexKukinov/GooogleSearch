@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #404040;
+    min-height: 100vh;
+    font-family: 'sans-serif';
+}
+
+.header {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+
+    border-bottom: 1px solid #ccc;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+.search {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+}
+.search__input {
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+.search__buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    height: 100%;
+}
+.search__button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.tools {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tools__button {
+    background-color: transparent;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.tools__button:hover {
+    background-color: rgba(250,250, 250, .4);
+}
+
+.tools__button img {
+    border-radius: 100%;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.bottom__link {
+    border: 1px solid #ccc;
+    padding: 2px 12px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.selects {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.line {
+    width: 1px;
+    display: block;
+    background: #ccc;
+    height: 100px;
+}
+
+.select {
+    width: 150px;
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
